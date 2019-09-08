@@ -9,7 +9,12 @@ def uwulate(message):
     message = message.replace("mo", "myo")
     message = message.replace("No", "Nyo")
     message = message.replace("Mo", "Myo")
+    message = message.replace("na", "nya")
+    message = message.replace("ni", "nyi")
+    message = message.replace("nu", "nyu")
+    message = message.replace("ne", "nye")
+    message = message.replace("anye", "ane")
+    message = message.replace("inye", "ine")
+    message = message.replace("onye", "one")
+    message = message.replace("unye", "une")
     return message + " uwu"
-    
-
-
